@@ -137,7 +137,8 @@ body {
       .nav__list {
         width: 95vw; } }
   .nav__item {
-    list-style: none; }
+    list-style: none;
+    margin: 1.5rem; }
   .nav__link, .nav__link:link, .nav__link:visited {
     text-decoration: none;
     font-size: 1.5rem;

@@ -383,7 +383,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(#fff 0%, #fff 30%, transparent 30%);
+  background-image: linear-gradient(to right, #fff 0%, #fff 30%, transparent 30%);
   overflow: hidden;
   position: relative;
   font-family: 'inter', sans-serif; }
@@ -395,7 +395,7 @@ body {
       height: 65vh; } }
   @supports (color: var(--color-primary)) {
     .header {
-      background-image: linear-gradient(var(--color-white) 0%, var(--color-white) 30%, transparent 30%); }
+      background-image: linear-gradient(to right, var(--color-white) 0%, var(--color-white) 30%, transparent 30%); }
       @media only screen and (max-width: 56.25em) {
         .header {
           background-image: linear-gradient(to right bottom, var(--color-white), var(--color-white)); } }

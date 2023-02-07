@@ -386,13 +386,15 @@ body {
   background-image: linear-gradient(to right, #fff 0%, #fff 30%, transparent 30%);
   overflow: hidden;
   position: relative;
-  font-family: 'inter', sans-serif; }
+  font-family: 'inter', sans-serif;
+  padding-bottom: 2rem; }
   @media only screen and (max-width: 56.25em) {
     .header {
       background-image: linear-gradient(to right bottom, #fff, #fff); } }
   @media only screen and (max-width: 25em) {
     .header {
-      height: 65vh; } }
+      padding-bottom: 1rem;
+      min-height: 65vh; } }
   @supports (color: var(--color-primary)) {
     .header {
       background-image: linear-gradient(to right, var(--color-white) 0%, var(--color-white) 30%, transparent 30%); }
@@ -401,7 +403,8 @@ body {
           background-image: linear-gradient(to right bottom, var(--color-white), var(--color-white)); } }
       @media only screen and (max-width: 25em) {
         .header {
-          height: 65vh; } } }
+          padding-bottom: 1rem;
+          min-height: 65vh; } } }
   .header__bg {
     height: 6rem;
     width: 6rem;

@@ -1,335 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%231176e9%22></rect><path fill=%22%23fff%22 d=%22M37.84 32.03L25.30 32.03L25.30 72.84Q24.92 72.99 24.12 73.18Q23.32 73.37 22.49 73.37L22.49 73.37Q19.14 73.37 19.14 70.56L19.14 70.56L19.14 32.03L4.93 32.03Q4.70 31.65 4.48 31.00Q4.25 30.35 4.25 29.52L4.25 29.52Q4.25 28.23 4.86 27.50Q5.46 26.78 6.60 26.78L6.60 26.78L39.51 26.78Q39.74 27.16 39.97 27.81Q40.20 28.45 40.20 29.21L40.20 29.21Q40.20 30.51 39.59 31.27Q38.98 32.03 37.84 32.03L37.84 32.03ZM75.16 60.98L75.16 60.98Q74.62 61.36 73.75 61.67Q72.88 61.97 71.81 61.97L71.81 61.97Q70.60 61.97 69.65 61.59Q68.70 61.21 68.32 60.37L68.32 60.37Q64.21 51.86 61.25 44.79Q58.28 37.73 56.46 33.09L56.46 33.09L56.16 33.09Q55.93 38.79 55.66 43.69Q55.40 48.59 55.09 53.27Q54.79 57.94 54.48 62.73Q54.18 67.52 53.88 72.99L53.88 72.99Q53.42 73.14 52.70 73.29Q51.98 73.45 51.14 73.45L51.14 73.45Q49.47 73.45 48.78 72.76Q48.10 72.08 48.10 70.79L48.10 70.79Q48.10 70.03 48.21 67.52Q48.33 65.01 48.56 61.44Q48.78 57.87 49.05 53.53Q49.32 49.20 49.66 44.72Q50 40.23 50.34 35.90Q50.68 31.57 50.99 28.00L50.99 28.00Q51.60 27.47 52.74 27.01Q53.88 26.55 55.32 26.55L55.32 26.55Q58.82 26.55 60.18 29.37L60.18 29.37Q61.63 32.33 63.11 35.64Q64.59 38.94 66.07 42.36Q67.56 45.78 68.96 49.13Q70.37 52.47 71.66 55.51L71.66 55.51L71.96 55.51Q73.64 51.48 75.31 47.57Q76.98 43.65 78.58 40.01Q80.17 36.36 81.62 33.17Q83.06 29.97 84.20 27.31L84.20 27.31Q84.88 26.93 85.95 26.74Q87.01 26.55 87.92 26.55L87.92 26.55Q91.50 26.55 92.03 28.99L92.03 28.99Q92.33 30.35 92.71 33.51Q93.09 36.66 93.47 40.77Q93.85 44.87 94.19 49.58Q94.54 54.29 94.84 58.66Q95.14 63.03 95.37 66.72Q95.60 70.41 95.75 72.53L95.75 72.53Q94.38 73.45 92.56 73.45L92.56 73.45Q91.42 73.45 90.55 72.88Q89.67 72.31 89.52 70.79L89.52 70.79Q89.14 65.24 88.84 59.77Q88.53 54.29 88.27 49.35Q88 44.41 87.77 40.27Q87.54 36.13 87.39 33.24L87.39 33.24L87.09 33.24Q86.25 35.37 85.15 38.03Q84.05 40.69 82.57 44.03Q81.08 47.38 79.26 51.60Q77.44 55.81 75.16 60.98Z%22></path></svg>" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400&display=swap" rel="stylesheet" />
     <link rel="stylesheet" id="theme-s" href="css/default.css" />
-	<link rel="stylesheet" id="theme-s2" href="" />
+    <link rel="stylesheet" id="theme-s2" href="" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Thabiso Moyo - My Art</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
-      <div class="header__bg"></div>
-      <div class="header__bg-1"></div>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#connect" class="nav__link">contact me</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">my work</a>
-          </li>
-          <li class="nav__item item-navhu" id="theme">
-            <a href="#" class="nav__link" id="t-link">dark theme</a>
-          </li>
-		  <li class="nav__item item-navhu" id="themed">
-            <a href="#" class="nav__link" id="d-link">default theme</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__div">
-        <div class="header__text">
-          <h1 class="heading-1 header-h mb-big t-left">I'm Thabiso Moyo</h1>
-          <p class="header__p para mb-big t-left">
-            My name is thabiso moyo, I am an artist. I've been in the field for
-            quite some time and i'm looking forward to getting more clients.
-            Hopefully you like what you'll see
-          </p>
-          <a href="#work" class="btn header-btn">See My work</a>
+        <div class="header__bg"></div>
+        <div class="header__bg-1"></div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#connect" class="nav__link">contact me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">my work</a>
+                </li>
+                <li class="nav__item item-navhu" id="theme">
+                    <a href="#" class="nav__link" id="t-link">dark theme</a>
+                </li>
+                <li class="nav__item item-navhu" id="themed">
+                    <a href="#" class="nav__link" id="d-link">default theme</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__div">
+            <div class="header__text">
+                <h1 class="heading-1 header-h mb-big t-left">I'm Thabiso Moyo</h1>
+                <p class="header__p para mb-big t-left">
+                    My name is thabiso moyo, I am an artist. I've been in the field for
+                    quite some time and i'm looking forward to getting more clients.
+                    Hopefully you like what you'll see
+                </p>
+                <a href="#work" class="btn header-btn">See My work</a>
+            </div>
+            <div class="header__img">
+                <img src="img/ava-1-2x.png" alt="Thabiso Moyo image" class="header__image image" />
+            </div>
         </div>
-        <div class="header__img">
-          <img
-            src="img/ava-1-2x.png"
-            alt="Thabiso Moyo image"
-            class="header__image image"
-          />
-        </div>
-      </div>
     </header>
     <main>
-      <section class="connect" id="connect">
-        <h1 class="heading-1 heading-1--light mt-big mb-medium">
-          Connect with me
-        </h1>
-        <div class="connect__links mb-medium">
-          <a href="#" class="icon-link connect__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-            </svg>
-          </a>
-          <a href="#" class="icon-link connect__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-instagram"></use>
-            </svg>
-          </a>
-          <a href="#" class="icon-link connect__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-facebook2"></use>
-            </svg>
-          </a>
-          <a href="#" class="icon-link connect__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </div>
-      </section>
-      <section class="r-work" id="work">
-        <h1 class="heading-1 heading-1--dark">My recent projects</h1>
-        <div class="r-work__div">
-          <div class="card">
-            <figure class="card__fig">
-              <img
-                src="img/drawing-2-g.jpg"
-                alt="image"
-                class="card__img card__img--top"
-              />
-              <div class="btn-bg"></div>
-              <a href="#pp1" class="btn btn__text">view</a>
-            </figure>
-            <a href="#pp1" class="btn card__btn">view</a>
-            <div class="pop" id="pp1">
-              <a href="#work" class="close-btn">&times;</a>
-              <div class="popup-container">
-                <img src="img/drawing-2-g.jpg" alt="" class="popup-img" />
-                <img src="img/drawing-2-2x.jpg" alt="" class="popup-img" />
-              </div>
+        <section class="connect" id="connect">
+            <h1 class="heading-1 heading-1--light mt-big mb-medium">
+                Connect with me
+            </h1>
+            <div class="connect__links mb-medium">
+                <a href="#" class="icon-link connect__link">
+                    <svg class="svg-icon-l connect__icon">
+                        <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                    </svg>
+                </a>
+                <a href="#" class="icon-link connect__link">
+                    <svg class="svg-icon-l connect__icon">
+                        <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+                <a href="#" class="icon-link connect__link">
+                    <svg class="svg-icon-l connect__icon">
+                        <use xlink:href="img/sprite.svg#icon-facebook2"></use>
+                    </svg>
+                </a>
+                <a href="#" class="icon-link connect__link">
+                    <svg class="svg-icon-l connect__icon">
+                        <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg>
+                </a>
             </div>
-          </div>
-          <div class="card">
-            <figure class="card__fig">
-              <img
-                src="img/drawing-3-g.jpg"
-                alt="image"
-                class="card__img card__img--top"
-              />
-              <div class="btn-bg"></div>
-              <a href="#pp1" class="btn btn__text">view</a>
-            </figure>
-            <a href="#pp2" class="btn card__btn">view</a>
-            <div class="pop" id="pp2">
-              <a href="#work" class="close-btn">&times;</a>
-              <div class="popup-container">
-                <img src="img/drawing-3-g.jpg" alt="" class="popup-img" />
-                <img src="img/drawing-3-2x.jpg" alt="" class="popup-img" />
-              </div>
+        </section>
+        <section class="r-work" id="work">
+            <h1 class="heading-1 heading-1--dark">My recent projects</h1>
+            <div class="r-work__div">
+                <div class="card">
+                    <figure class="card__fig">
+                        <img src="img/drawing-2-g.jpg" alt="image" class="card__img card__img--top" />
+                        <div class="btn-bg"></div>
+                        <a href="#pp1" class="btn btn__text">view</a>
+                    </figure>
+                    <a href="#pp1" class="btn card__btn">view</a>
+                    <div class="pop" id="pp1">
+                        <a href="#work" class="close-btn">&times;</a>
+                        <div class="popup-container">
+                            <img src="img/drawing-2-g.jpg" alt="" class="popup-img" />
+                            <img src="img/drawing-2-2x.jpg" alt="" class="popup-img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card__fig">
+                        <img src="img/drawing-3-g.jpg" alt="image" class="card__img card__img--top" />
+                        <div class="btn-bg"></div>
+                        <a href="#pp2" class="btn btn__text">view</a>
+                    </figure>
+                    <a href="#pp2" class="btn card__btn">view</a>
+                    <div class="pop" id="pp2">
+                        <a href="#work" class="close-btn">&times;</a>
+                        <div class="popup-container">
+                            <img src="img/drawing-3-g.jpg" alt="" class="popup-img" />
+                            <img src="img/drawing-3-2x.jpg" alt="" class="popup-img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card__fig">
+                        <img src="img/drawing-5-g.jpg" alt="image" class="card__img card__img--top" />
+                        <div class="btn-bg"></div>
+                        <a href="#pp3" class="btn btn__text">view</a>
+                    </figure>
+                    <a href="#pp3" class="btn card__btn">view</a>
+                    <div class="pop" id="pp3">
+                        <a href="#work" class="close-btn">&times;</a>
+                        <div class="popup-container">
+                            <img src="img/drawing-5-g.jpg" alt="" class="popup-img" />
+                            <img src="img/drawing-5-2x.jpg" alt="" class="popup-img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card__fig">
+                        <img src="img/drawing-1-g.jpg" alt="image" class="card__img card__img--top" />
+                        <div class="btn-bg"></div>
+                        <a href="#pp4" class="btn btn__text">view</a>
+                    </figure>
+                    <a href="#pp4" class="btn card__btn">view</a>
+                    <div class="pop" id="pp4">
+                        <a href="#work" class="close-btn">&times;</a>
+                        <div class="popup-container">
+                            <img src="img/drawing-1-g.jpg" alt="" class="popup-img" />
+                            <img src="img/drawing-1.jpg" alt="" class="popup-img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card__fig">
+                        <img src="img/drawing-4-g.jpg" alt="image" class="card__img card__img--top" />
+                        <div class="btn-bg"></div>
+                        <a href="#pp5" class="btn btn__text">view</a>
+                    </figure>
+                    <a href="#pp5" class="btn card__btn">view</a>
+                    <div class="pop" id="pp5">
+                        <a href="#work" class="close-btn">&times;</a>
+                        <div class="popup-container">
+                            <img src="img/drawing-4-g.jpg" alt="" class="popup-img" />
+                            <img src="img/drawing-4-2x.png" alt="" class="popup-img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card__fig">
+                        <img src="img/drawing-6-g.jpg" alt="image" class="card__img card__img--top" />
+                        <div class="btn-bg"></div>
+                        <a href="#pp6" class="btn btn__text">view</a>
+                    </figure>
+                    <a href="#pp6" class="btn card__btn">view</a>
+                    <div class="pop" id="pp6">
+                        <a href="#work" class="close-btn">&times;</a>
+                        <div class="popup-container">
+                            <img src="img/drawing-6-g.jpg" alt="" class="popup-img" />
+                            <img src="img/drawing-6-2x.jpg" alt="" class="popup-img" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="card__fig">
+                        <img src="img/drawing-7-g.jpg" alt="image" class="card__img card__img--top" />
+                        <div class="btn-bg"></div>
+                        <a href="#pp7" class="btn btn__text">view</a>
+                    </figure>
+                    <a href="#pp7" class="btn card__btn">view</a>
+                    <div class="pop" id="pp7">
+                        <a href="#work" class="close-btn">&times;</a>
+                        <div class="popup-container">
+                            <img src="img/drawing-7-g.jpg" alt="" class="popup-img" />
+                            <img src="img/drawing-7-2x.jpg" alt="" class="popup-img" />
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="card">
-            <figure class="card__fig">
-              <img
-                src="img/drawing-5-g.jpg"
-                alt="image"
-                class="card__img card__img--top"
-              />
-              <div class="btn-bg"></div>
-              <a href="#pp3" class="btn btn__text">view</a>
-            </figure>
-            <a href="#pp3" class="btn card__btn">view</a>
-            <div class="pop" id="pp3">
-              <a href="#work" class="close-btn">&times;</a>
-              <div class="popup-container">
-                <img src="img/drawing-5-g.jpg" alt="" class="popup-img" />
-                <img src="img/drawing-5-2x.jpg" alt="" class="popup-img" />
-              </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="hr"></div>
+            <h1 class="heading-1 t-center mb-big">Other works</h1>
+            <div class="grid">
+                <figure class="grid__figure grid__figure--1">
+                    <img src="img/grid/g (1).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--2">
+                    <img src="img/grid/g (2).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--3">
+                    <img src="img/grid/g (3).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--4">
+                    <img src="img/grid/g (4).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--5">
+                    <img src="img/grid/g (5).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--6">
+                    <img src="img/grid/g (6).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--7">
+                    <img src="img/grid/g (7).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--8">
+                    <img src="img/grid/g (8).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--9">
+                    <img src="img/grid/g (9).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--10">
+                    <img src="img/grid/g (10).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--11">
+                    <img src="img/grid/g (11).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--12">
+                    <img src="img/grid/g (12).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--13">
+                    <img src="img/grid/g (13).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--14">
+                    <img src="img/grid/g (14).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--15">
+                    <img src="img/grid/g (15).jpg" alt="" class="grid__img" />
+                </figure>
+                <figure class="grid__figure grid__figure--16">
+                    <img src="img/grid/g (16).jpg" alt="" class="grid__img" />
+                </figure>
             </div>
-          </div>
-          <div class="card">
-            <figure class="card__fig">
-              <img
-                src="img/drawing-1-g.jpg"
-                alt="image"
-                class="card__img card__img--top"
-              />
-              <div class="btn-bg"></div>
-              <a href="#pp4" class="btn btn__text">view</a>
-            </figure>
-            <a href="#pp4" class="btn card__btn">view</a>
-            <div class="pop" id="pp4">
-              <a href="#work" class="close-btn">&times;</a>
-              <div class="popup-container">
-                <img src="img/drawing-1-g.jpg" alt="" class="popup-img" />
-                <img src="img/drawing-1.jpg" alt="" class="popup-img" />
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <figure class="card__fig">
-              <img
-                src="img/drawing-4-g.jpg"
-                alt="image"
-                class="card__img card__img--top"
-              />
-              <div class="btn-bg"></div>
-              <a href="#pp5" class="btn btn__text">view</a>
-            </figure>
-            <a href="#pp5" class="btn card__btn">view</a>
-            <div class="pop" id="pp5">
-              <a href="#work" class="close-btn">&times;</a>
-              <div class="popup-container">
-                <img src="img/drawing-4-g.jpg" alt="" class="popup-img" />
-                <img src="img/drawing-4-2x.png" alt="" class="popup-img" />
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <figure class="card__fig">
-              <img
-                src="img/drawing-6-g.jpg"
-                alt="image"
-                class="card__img card__img--top"
-              />
-              <div class="btn-bg"></div>
-              <a href="#pp6" class="btn btn__text">view</a>
-            </figure>
-            <a href="#pp6" class="btn card__btn">view</a>
-            <div class="pop" id="pp6">
-              <a href="#work" class="close-btn">&times;</a>
-              <div class="popup-container">
-                <img src="img/drawing-6-g.jpg" alt="" class="popup-img" />
-                <img src="img/drawing-6-2x.jpg" alt="" class="popup-img" />
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <figure class="card__fig">
-              <img
-                src="img/drawing-7-g.jpg"
-                alt="image"
-                class="card__img card__img--top"
-              />
-              <div class="btn-bg"></div>
-              <a href="#pp7" class="btn btn__text">view</a>
-            </figure>
-            <a href="#pp7" class="btn card__btn">view</a>
-            <div class="pop" id="pp7">
-              <a href="#work" class="close-btn">&times;</a>
-              <div class="popup-container">
-                <img src="img/drawing-7-g.jpg" alt="" class="popup-img" />
-                <img src="img/drawing-7-2x.jpg" alt="" class="popup-img" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="projects" id="projects">
-        <div class="hr"></div>
-        <h1 class="heading-1 t-center mb-big">Other works</h1>
-        <div class="grid">
-          <figure class="grid__figure grid__figure--1">
-            <img src="img/grid/g (1).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--2">
-            <img src="img/grid/g (2).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--3">
-            <img src="img/grid/g (3).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--4">
-            <img src="img/grid/g (4).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--5">
-            <img src="img/grid/g (5).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--6">
-            <img src="img/grid/g (6).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--7">
-            <img src="img/grid/g (7).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--8">
-            <img src="img/grid/g (8).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--9">
-            <img src="img/grid/g (9).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--10">
-            <img src="img/grid/g (10).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--11">
-            <img src="img/grid/g (11).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--12">
-            <img src="img/grid/g (12).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--13">
-            <img src="img/grid/g (13).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--14">
-            <img src="img/grid/g (14).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--15">
-            <img src="img/grid/g (15).jpg" alt="" class="grid__img" />
-          </figure>
-          <figure class="grid__figure grid__figure--16">
-            <img src="img/grid/g (16).jpg" alt="" class="grid__img" />
-          </figure>
-        </div>
-      </section>
+        </section>
     </main>
     <hr>
-	<footer class="footer">
-		<div class="footer__div">
-			<div class="footer__f">
-				<h1 class="heading-2 heading-1--light mt-medium t-center mb-medium">
-					&copy; Thabiso Moyo
-				</h1>
-        <div class="footer__links footer__f-link mb-medium">
-          <a href="#" class="icon-link footer__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-            </svg>
-          </a>
-          <a href="#" class="icon-link footer__f-link footer__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-instagram"></use>
-            </svg>
-          </a>
-          <a href="#" class="icon-link footer__f-link footer__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-facebook2"></use>
-            </svg>
-          </a>
-          <a href="#" class="icon-link footer__f-link footer__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-twitter"></use>
-            </svg>
-          </a>
+    <footer class="footer">
+        <div class="footer__div">
+            <div class="footer__f">
+                <h1 class="heading-2 heading-1--light mt-medium t-center mb-medium">
+                    &copy; Thabiso Moyo
+                </h1>
+                <div class="footer__links footer__f-link mb-medium">
+                    <a target="_blank" href="#" class="icon-link footer__link">
+                        <svg class="svg-icon-l connect__icon">
+                            <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="#" class="icon-link footer__f-link footer__link">
+                        <svg class="svg-icon-l connect__icon">
+                            <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="#" class="icon-link footer__f-link footer__link">
+                        <svg class="svg-icon-l connect__icon">
+                            <use xlink:href="img/sprite.svg#icon-facebook2"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="#" class="icon-link footer__f-link footer__link">
+                        <svg class="svg-icon-l connect__icon">
+                            <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__b">
+                <h1 class="heading-2 heading-1--light mt-medium t-center mb-medium">
+                    Designed by <span class="footer__span">im_egtt</span>
+                </h1>
+                <div class="footer__links footer__b-link mb-medium">
+                    <a target="_blank" href="https://wa.me/263783674643" class="icon-link footer__link">
+                        <svg class="svg-icon-l connect__icon">
+                            <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/im_egtt_dev" class="icon-link footer__b-link footer__link">
+                        <svg class="svg-icon-l connect__icon">
+                            <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/eliyahu-toronga-512256264/" class="icon-link footer__b-link footer__link">
+                        <svg class="svg-icon-l connect__icon">
+                            <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
-			</div>
-			<div class="footer__b">
-        <h1 class="heading-2 heading-1--light mt-medium t-center mb-medium">
-				Designed by <span class="footer__span">im_egtt</span>
-				</h1>
-        <div class="footer__links footer__b-link mb-medium">
-          <a href="https://wa.me/263783674643" class="icon-link footer__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-            </svg>
-          </a>
-          <a href="https://www.instagram.com/im_egtt_devs" class="icon-link footer__b-link footer__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-instagram"></use>
-            </svg>
-          </a>
-          <a href="#" class="icon-link footer__b-link footer__link">
-            <svg class="svg-icon-l connect__icon">
-              <use xlink:href="img/sprite.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </div>
-			</div>
-		</div>
-	</footer>
-  <script src="js/app.js"></script>
-  </body>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
 </html>

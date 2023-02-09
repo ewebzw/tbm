@@ -622,3 +622,9 @@ body {
         opacity: 1;
         visibility: visible;
         transition: all .3s; } }
+    @media only screen and (max-width: 37.5em) {
+      .footer__links {
+        transform: scale(1);
+        opacity: 1;
+        visibility: visible;
+        transition: all .3s; } }

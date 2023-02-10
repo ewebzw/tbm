@@ -169,7 +169,7 @@ body {
       width: 20vw; } }
   @media only screen and (max-width: 56.25em) and (orientation: portrait) {
     .card {
-      width: 20vw; } }
+      width: 40vw; } }
   @media only screen and (max-width: 37.5em) {
     .card {
       width: 80vw; } }
@@ -178,7 +178,7 @@ body {
       width: 20vw; } }
   @media only screen and (max-width: 37.5em) and (orientation: portrait) {
     .card {
-      width: 20vw; } }
+      width: 80vw; } }
   .card__fig {
     width: 100%;
     position: relative;
@@ -207,7 +207,7 @@ body {
         width: 80vw;
         height: auto;
         max-height: 90vh; } }
-    @media only screen and (max-width: 37.5em) and (orientation: portrait) {
+    @media only screen and (max-width: 37.5em) and (orientation: landscape) {
       .card__fig {
         width: 20vw;
         height: 20vw; } }

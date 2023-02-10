@@ -164,9 +164,21 @@ body {
   @media only screen and (max-width: 56.25em) {
     .card {
       width: 40vw; } }
+  @media only screen and (max-width: 56.25em) and (orientation: landscape) {
+    .card {
+      width: 20vw; } }
+  @media only screen and (max-width: 56.25em) and (orientation: portrait) {
+    .card {
+      width: 20vw; } }
   @media only screen and (max-width: 37.5em) {
     .card {
       width: 80vw; } }
+  @media only screen and (max-width: 37.5em) and (orientation: landscape) {
+    .card {
+      width: 20vw; } }
+  @media only screen and (max-width: 37.5em) and (orientation: portrait) {
+    .card {
+      width: 20vw; } }
   .card__fig {
     width: 100%;
     position: relative;
@@ -177,11 +189,28 @@ body {
       .card__fig {
         width: 40vw;
         height: 40vw; } }
+    @media only screen and (max-width: 56.25em) and (orientation: landscape) {
+      .card__fig {
+        width: 20vw;
+        height: 20vw; } }
+    @media only screen and (max-width: 56.25em) and (orientation: portrait) {
+      .card__fig {
+        width: 40vw;
+        height: 40vw; } }
     @media only screen and (max-width: 37.5em) {
       .card__fig {
         width: 80vw;
         height: auto;
-        max-height: 90vw; } }
+        max-height: 90vh; } }
+    @media only screen and (max-width: 37.5em) and (orientation: portrait) {
+      .card__fig {
+        width: 80vw;
+        height: auto;
+        max-height: 90vh; } }
+    @media only screen and (max-width: 37.5em) and (orientation: portrait) {
+      .card__fig {
+        width: 20vw;
+        height: 20vw; } }
   .card__img {
     width: 100%;
     object-fit: cover;
@@ -307,12 +336,24 @@ body {
   @media only screen and (max-width: 56.25em) {
     .popup-container > .popup-img:first-child {
       display: none; } }
+  @media only screen and (max-width: 56.25em) and (orientation: portrait) {
+    .popup-container > .popup-img:first-child {
+      display: none; } }
+  @media only screen and (max-width: 56.25em) and (orientation: landscape) {
+    .popup-container > .popup-img:first-child {
+      display: inline-block; } }
 
 .popup-img {
   max-height: 60%; }
   @media only screen and (max-width: 37.5em) {
     .popup-img {
       max-height: 80%; } }
+  @media only screen and (max-width: 37.5em) and (orientation: portrait) {
+    .popup-img {
+      max-height: 80%; } }
+  @media only screen and (max-width: 37.5em) and (orientation: landscape) {
+    .popup-img {
+      max-height: 60%; } }
 
 .grid {
   display: flex;
